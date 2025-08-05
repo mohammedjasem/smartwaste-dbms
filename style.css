@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;  /* centers container with margin */
+    background: white;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 6px;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #000000;
+}
+
+nav {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+nav a {
+    color: #0066cc;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.full {
+    background-color: rgba(178, 34, 34);
+    color: white;
+    font-weight: bold;
+}
+
+.error {
+    color: rgba(178, 34, 34);
+    text-align: center;
+}
